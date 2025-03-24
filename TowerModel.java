@@ -52,8 +52,6 @@ public class TowerModel {
         if (towers[destination].peek() > towers[source].peek()){
             int start = towers[source].pop();
             towers[destination].push(start);
-        } else {
-            return;
         }
         
     }
