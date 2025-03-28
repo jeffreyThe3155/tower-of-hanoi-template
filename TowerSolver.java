@@ -23,6 +23,7 @@ public class TowerSolver {
             model.move(start, end);
             solveMethod(height - 1, placeholder, end, start);
         }
+        model.print();
     } 
     //
 
