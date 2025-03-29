@@ -53,7 +53,7 @@ public class TowerModel {
             int start = towers[source].pop();
             towers[destination].push(start);
         } */
-        if (source < 0 || source > 2 || destination < 0 || destination > 2) {
+        if (source > 2 || destination < 0) {
             return;
         }
 
